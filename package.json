@@ -1,0 +1,25 @@
+{
+    "name": "testscript",
+    "displayName": "testscript",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.46.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "testscript",
+            "aliases": ["testscript", "testscript"],
+            "extensions": [".txt"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "testscript",
+            "scopeName": "source.testscript",
+            "path": "./syntaxes/testscript.tmLanguage.json"
+        }]
+    }
+}
