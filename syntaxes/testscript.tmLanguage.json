@@ -50,7 +50,7 @@
 					"match": "\\[(!)?(short|net|link|symlink|exec)\\]",
 					"captures": {
 						"1": {
-							"name": "keyword.operator.testscript"
+							"name": "operator.testscript"
 						},
 						"2": {
 							"name": "keyword.control.testscript"
